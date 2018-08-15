@@ -89,4 +89,3 @@ class ChecklistViewController: UITableViewController {
         print(rows)
     }
 }
-
