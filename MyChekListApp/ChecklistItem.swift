@@ -8,9 +8,9 @@
 
 import Foundation
 
-class ChecklistItem: CustomStringConvertible {
+class ChecklistItem: NSObject {
     
-    var description: String {
+    override var description: String {
         return """
         title: \(title),
         isDone: \(isDone)
